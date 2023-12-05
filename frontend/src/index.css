@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@100;200;300;400;500&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  background: #1e1e1e;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: #cfcfcf;
+  text-decoration: inherit;
+}
+a:hover {
+  color: rgb(206, 206, 206);
+}
+
+.gradient {
+  background: var(
+    --Actual-Linear,
+    linear-gradient(
+      271deg,
+      #d219fe 1.09%,
+      rgba(220, 77, 254, 0.98) 25.47%,
+      rgba(63, 0, 251, 0.94) 107.56%
+    )
+  );
+}
